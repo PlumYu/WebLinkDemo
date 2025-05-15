@@ -1,0 +1,9 @@
+# Django
+django>=3.2,<4.0
+
+# Django Channels for WebSocket support
+channels>=3.0,<4.0
+daphne>=3.0,<4.0
+
+# For SSH-like functionality (executing commands)
+# No specific library needed for basic subprocess execution, but consider paramiko for real SSH
