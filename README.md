@@ -65,7 +65,7 @@ WebLinkDemo/
 
 5.  **启动开发服务器 (默认运行在 `http://127.0.0.1:8001` 或 `http://0.0.0.0:8001`):**
     ```bash
-    python manage.py runserver 0.0.0.0:8001
+    python manage.py runserver 0.0.0.0:8001 or uvicorn your_project.asgi:application --host 0.0.0.0 --port 8001 --reload
     ```
     *注意: `SSEDemo.vue` 组件中连接的 SSE 地址是 `http://192.168.11.217:8001`，请确保后端服务在该地址可访问，或者相应修改前端代码中的 URL。*
 
